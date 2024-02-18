@@ -5,6 +5,7 @@ import Example1 from './components/ArrayMap.js';
 import ExampleUseState from './components/ExampleUseState.js';
 import BasicForm from './components/BasicForm.js';
 import Assignment1 from './components/Assignment1.js';
+import Counter1 from './components/Counter1.js';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
        <Example1/> */}
        {/* <ExampleUseState/> */}
        {/* <BasicForm/> */}
-       <Assignment1/>
+       {/* <Assignment1/> */}
+       <Counter1/>
     </div>
   );
 }
