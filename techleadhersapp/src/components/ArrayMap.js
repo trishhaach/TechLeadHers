@@ -12,7 +12,7 @@ const Example1 = () => {
     <div> 
         Example of Map:
         <hr/>
-        {participants.map((item,index) => {
+        {participants.map((item,index) => {         //array render garne bela map use garna parxa
         return <div>{index} {item} </div>
         })}
         <hr/>

@@ -6,6 +6,7 @@ import ExampleUseState from './components/ExampleUseState.js';
 import BasicForm from './components/BasicForm.js';
 import Assignment1 from './components/Assignment1.js';
 import Counter1 from './components/Counter1.js';
+import AxiosExample from './components/Axios.js';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
        {/* <ExampleUseState/> */}
        {/* <BasicForm/> */}
        {/* <Assignment1/> */}
-       <Counter1/>
+       {/* <Counter1/> */}
+       <AxiosExample/>
     </div>
   );
 }
