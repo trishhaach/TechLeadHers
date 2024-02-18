@@ -5,8 +5,8 @@ const BasicForm = () => {
     
     const[name,setName]=useState("");
     const [msg,setMsg]=useState("");   
-    const [age,setAge]=useState("");     
-
+    const [age,setAge]=useState("");    
+     
         
     const handleName = (event) => {
         setName(event.target.value);

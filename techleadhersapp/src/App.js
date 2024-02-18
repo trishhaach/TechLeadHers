@@ -7,6 +7,7 @@ import BasicForm from './components/BasicForm.js';
 import Assignment1 from './components/Assignment1.js';
 import Counter1 from './components/Counter1.js';
 import AxiosExample from './components/Axios.js';
+import AxiosPost from './components/AxiosPost.js';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
        {/* <BasicForm/> */}
        {/* <Assignment1/> */}
        {/* <Counter1/> */}
-       <AxiosExample/>
+       {/* <AxiosExample/> */}
+       <AxiosPost/>
     </div>
   );
 }
