@@ -1,0 +1,36 @@
+/* :root {
+    --background-color: rgb(180, 130, 130);
+    --background: rgb(194, 86, 106);
+} */
+.form-example{
+    text-align: center;
+    height: 10px;
+}
+body{
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form{
+      border: 2px solid black;
+      width: 300px;
+      height: 250px;
+      padding: 10px;
+      margin: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 6px;
+      background-color: rgb(194, 86, 106);
+}
+
+.input-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
